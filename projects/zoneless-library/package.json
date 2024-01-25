@@ -1,6 +1,6 @@
 {
   "name": "zoneless-library",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "peerDependencies": {
     "@angular/common": "^16.1.0",
     "@angular/core": "^16.1.0"
@@ -12,5 +12,14 @@
   "author": {
     "name": "Jose Manuel Lazaro",
     "email": "pema7284@gmail.com"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thepema/ngx-zoneless-lib"
+  },
+  "keywords": ["zone", "Angular", "Zoneless", "runOutsideAngular", "Zone"],
+  "bugs": {
+    "url": "https://github.com/thepema/ngx-zoneless-lib/issues"
+  },
+  "homepage": "https://github.com/thepema/ngx-zoneless-lib"
 }

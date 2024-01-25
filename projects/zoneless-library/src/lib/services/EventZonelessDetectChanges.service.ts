@@ -12,11 +12,8 @@ export class EventZonelessDetectChanges {
   constructor(private _cd: CustomChangeDetectorService) {}
 
   supports(eventName: string): boolean {
-    const [prefix] = this._splitEvent(eventName);
-    if (prefix === 'Z') {
-      return true;
-    }
-    return false;
+    return true;
+
   }
 
   addEventListener(
